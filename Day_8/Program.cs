@@ -46,7 +46,6 @@ foreach (var location in locations)
         multipleActual.Add(locations.IndexOf(location));
     }
 }
-// lets find LCM = least common multiple
 var ghostsSteps = new List<int>();
 for (int i = 0; i < multipleActual.Count(); i++)
 {   
